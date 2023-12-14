@@ -1,0 +1,25 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/cards.css");
+@import url("styles/navigation.css");
+@import url("styles/artigo.css");
+
+:root {
+    --cor-de-fundo: #C7D7E0;
+    --branco: #FFFFFF;
+    --cinza: #EEEEED;
+    --laranja: #FAB216;
+    --azul: #2B6CB5;
+    --vermelho: #EE2E2E;
+    --rosa: #D22360;
+    --preto-forte: #000000;
+    --preto-fraco: #1E1E1E;
+    --fonte-principal: "Montserrat", sans serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 400;
+}

@@ -1,0 +1,89 @@
+.header__blue {
+    background-color: var(--azul);
+    display: flex;
+    padding: 1em 3em;
+}
+
+.header__img {
+    height: 6em;
+    margin-right: 1em;
+}
+
+.header__nome {
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__nome__hapcare {
+    color: var(--laranja);
+    font-size: 35px;
+}
+
+.header__nome__hapvida {
+    color: var(--branco);
+    font-size: 44px;
+}
+
+.header__orange {
+    height: 1.5em;
+    background-color: var(--laranja);
+}
+
+.header__menu {
+    display: none;
+}
+
+@media screen and (max-width: 820px) {
+    .header__blue {
+        padding: 1em 2em;
+    }
+
+    .header__img {
+        height: 4em;
+        margin-right: 0.5em;
+    }
+
+    .header__nome__hapcare {
+        font-size: 20px;
+    }
+    
+    .header__nome__hapvida {
+        font-size: 25px;
+    }
+
+    .header__menu {
+        display: block;
+        height: 2em;
+        align-self: center;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 412px){
+    .header__blue {
+        padding: 0.5em 1em;
+    }
+
+    .header__img {
+        height: 3em;
+        margin-right: 0.5em;
+    }
+
+    .header__nome__hapcare {
+        font-size: 16px;
+    }
+    
+    .header__nome__hapvida {
+        font-size: 20px;
+    }
+
+    .header__orange {
+        height: 1em;
+    }
+
+    .header__menu {
+        height: 1.5em;
+    }
+}
